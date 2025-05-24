@@ -1,4 +1,4 @@
-[1 лабораторная](https://kirillkuzn20.kaiten.ru/space/554664/boards) (Kaiten)
+[1 лабораторная](https://kirillkuzn20.kaiten.ru/space/554664/boards) (Kaiten).
 Суть лабораторной:
 1) Зарегистрироваться на сайте https://kaiten.ru
 2) Для предметной области выбранной студентом составить Доску;
