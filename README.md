@@ -4,7 +4,7 @@
 [Решение и описание работы](https://github.com/KirushaK666/MyLabs/blob/main/1lab.md)
 
 2 лабораторная работа:
-[Решение и описание работы]()
+[Решение и описание работы](https://github.com/KirushaK666/MyLabs/blob/main/2lab/2lab.md)
 
 3 лабораторная работа:
 [Решение и описание работы]()
