@@ -22,4 +22,4 @@
 [Решение и описание работы](https://github.com/KirushaK666/MyLabs/tree/main/7lab)
 
 8 лабораторная работа:
-[Решение и описание работы](https://github.com/KirushaK666/MyLabs/blob/main/README.md)
+[Решение и описание работы](https://github.com/KirushaK666/MyLabs/tree/main)
