@@ -13,7 +13,7 @@
 [Решение и описание работы](https://github.com/KirushaK666/MyLabs/tree/main/4lab)
 
 5 лабораторная работа:
-[Решение и описание работы]()
+[Решение и описание работы](https://github.com/KirushaK666/MyLabs/tree/main/5lab)
 
 6 лабораторная работа:
 [Описание работы]()
