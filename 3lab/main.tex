@@ -1,0 +1,130 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage[russian]{babel}
+
+\begin{document}
+
+\noindent
+и начальные условия в виде рядов Фурье:
+
+\begin{equation}
+    \left.
+    \begin{aligned}
+        f(x, t) &= \sum_{n=1}^{\infty} f_n(t) \sin{\frac{n\pi}{l} x}, & f_n(t) &= \frac{2}{l} \int\limits_{0}^{l} f(\xi, t) \sin{\frac{n\pi}{l} \xi} d\xi; \\
+        \varphi(x) &= \sum_{n=1}^{\infty} \Phi_n \sin{\frac{n\pi}{l} x}, & \Phi_n &= \frac{2}{l} \int\limits_{0}^{l} \varphi(\xi) \sin{\frac{n\pi}{l} \xi} d\xi; \\
+        \psi(x) &= \sum_{n=1}^{\infty} \Psi_n \sin{\frac{n\pi}{l} x}, & \Psi_n &= \frac{2}{l} \int\limits_{0}^{l} \psi(\xi) \sin{\frac{n\pi}{l} \xi} d\xi.
+    \end{aligned}
+    \right\} \tag{49}
+\end{equation}
+
+\noindent
+Подставляя предполагаемую форму решения (48) в исходное уравнение (45)
+
+\begin{equation*}
+    \sum_{n=1}^{\infty} \sin{\frac{n\pi}{l} x} \left\{ -a^2 \left(\frac{n\pi}{l}\right)^2 u_n(t) - \ddot{u}_n(t) + f_n(t) \right\} = 0,
+\end{equation*}
+
+\noindent
+видим, что оно будет удовлетворено, если все коэффициенты разложения равны нулю, т. е.
+
+\begin{equation}
+    \ddot{u}_n(t) + \left(\frac{n\pi}{l}\right)^2 a^2 u_n(t) = f_n(t). \tag{50}
+\end{equation}
+
+\noindent
+Для определения $u_n(t)$ мы получили обыкновенное дифференциальное уравнение с постоянными коэффициентами. Начальные условия дают:
+
+\begin{equation*}
+    u(x, 0) = \varphi(x) = \sum_{n=1}^{\infty} u_n(0) \sin{\frac{n\pi}{l} x} = \sum_{n=1}^{\infty} \Phi_n \sin{\frac{n\pi}{l} x},
+\end{equation*}
+
+\begin{equation*}
+    u_t(x, 0) = \psi(x) = \sum_{n=1}^{\infty} \dot{u}_n(0) \sin{\frac{n\pi}{l} x} = \sum_{n=1}^{\infty} \Psi_n \sin{\frac{n\pi}{l} x},
+\end{equation*}
+
+\noindent
+откуда следует:
+
+\begin{equation}
+    \begin{cases}
+        u_n(0) = \Phi_n, \\
+        \dot{u}_n(0) = \Psi_n.
+    \end{cases} \tag{51}
+\end{equation}
+
+\noindent
+Эти дополнительные условия полностью определяют решение уравнения (50). Функцию $u_n(t)$ можно представить в виде
+
+\begin{equation*}
+    u_n(t) = u_n^{(1)}(t) + u_n^{(II)}(t),
+\end{equation*}
+
+\noindent
+где
+
+\begin{equation}
+    u_n^{(1)}(t) = \frac{l}{n\pi a} \int\limits_{0}^{t} \sin{\frac{n\pi}{l} a (t - \tau)} \cdot f_n(\tau) d\tau \tag{52}
+\end{equation}
+
+\noindent
+4 А. Н. Тихонов, А. А. Самарский
+
+
+\noindent
+\\
+
+\noindent
+есть решение неоднородного уравнения с нулевыми начальными условиями$^1)$ и
+
+\begin{equation}
+    u^{(1)}(t) = \Phi_n \cos{\frac{n\pi}{l} at} + \frac{l}{n\pi a} \Psi_n \sin{\frac{n\pi}{l} at} \tag{53}
+\end{equation}
+
+\noindent
+— решение однородного уравнения с заданными начальными условиями. Таким образом, искомое решение запишется в виде
+
+\begin{equation*}
+    u(x, t) = \sum_{n=1}^{\infty} \frac{l}{n\pi a} \int\limits_{0}^{t} \sin{\frac{n\pi}{l} a (t - \tau)} \sin{\frac{n\pi}{l} x} \cdot f_n(\tau) d\tau +
+\end{equation*}
+\begin{equation}
+    + \sum_{n=1}^{\infty} \left( \Phi_n \cos{\frac{n\pi}{l} at} + \frac{l}{n\pi a} \Psi_n \sin{\frac{n\pi}{l} at} \right) \sin{\frac{n\pi}{l} x}. \tag{54}
+\end{equation}
+
+\noindent
+Вторая сумма представляет решение задачи о свободных колебаниях струны при заданных начальных условиях и была нами исследована ранее достаточно подробно. Обратимся к изучению первой суммы, представляющей вынужденные колебания струны под действием внешней силы при нулевых начальных условиях. Пользуясь выражением (49) для $f_n(t)$, находим:
+
+\begin{equation*}
+    u^{(1)}(x, t) = \int\limits_{0}^{t}\int\limits_{0}^{t} \left\{ \frac{2}{l} \sum_{n=1}^{\infty} \frac{l}{n\pi a} \sin{\frac{n\pi}{l} a (t - \tau)} \sin{\frac{n\pi}{l} x} \sin{\frac{n\pi}{l} \xi} \right\} f(\xi, \tau) d\xi d\tau =
+\end{equation*}
+
+\begin{equation}
+    \begin{aligned}
+        &= \int\limits_{0}^{t} \int\limits_{0}^{l} G(x, \xi, t - \tau) f(\xi, \tau) d\xi d\tau,  \\
+        \end{aligned} \tag{55}
+\end{equation}
+\text{где} \\
+\begin{equation}
+    \begin{aligned}
+        &G(x, \xi, t - \tau) = \frac{2}{l} \sum_{n=1}^{\infty} \frac{l}{n\pi a} \sin{\frac{n\pi}{l} a (t - \tau)} \sin{\frac{n\pi}{l} x} \sin{\frac{n\pi}{l} \xi}. 
+    \end{aligned} \tag{56}
+\end{equation}
+
+\noindent
+Выясним физический смысл полученного решения. Пусть функция $f(\xi, \tau)$ отлична от нуля в достаточно малой окрестности точки $M_0(\xi_0, \tau_0)$:
+
+\begin{equation*}
+    \xi_0 \le \xi \le \xi_0 + \Delta\xi, \quad \tau_0 \le \tau \le \tau_0 + \Delta\tau.
+\end{equation*}
+
+\noindent
+Функция $\rho f(\xi, \tau)$ представляет плотность действующей силы; сила, приложенная к участку $(\xi_0, \xi_0 + \Delta\xi)$, равна
+
+\begin{equation*}
+    F(\tau) = \rho \int\limits_{\xi_0}^{\xi_0 + \Delta\xi} f(\xi, \tau) d\xi.
+\end{equation*}
+
+\noindent
+\footnote{1) В этом можно убедиться непосредственно. Формула (52) может быть получена методом вариации постоянных. См. также мелкий шрифт в конце настоящего пункта.}
+
+\end{document}
