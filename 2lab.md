@@ -1,1 +1,1 @@
-[2 лабораторная] (XMind) (https://xmind.ai/hBAQKrig)
+[2 лабораторная](https://xmind.ai/hBAQKrig) (XMind) 
