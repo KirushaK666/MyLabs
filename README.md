@@ -1,10 +1,10 @@
 # MyLabs
 # Итоговая лабораторная работа за 2 семестр 1 курса.
 1 лабораторная работа:
-[Решение и описание работы](https://github.com/KirushaK666/MyLabs/blob/main/1lab.md)
+[Решение и описание работы](https://github.com/KirushaK666/MyLabs/blob/main/1lab.md) (Kaiten)
 
 2 лабораторная работа:
-[Решение и описание работы](https://github.com/KirushaK666/MyLabs/blob/main/2lab/2lab.md)
+[Решение и описание работы](https://github.com/KirushaK666/MyLabs/blob/main/2lab/2lab.md) (LaTeX)
 
 3 лабораторная работа:
 [Решение и описание работы](https://github.com/KirushaK666/MyLabs/tree/main/3lab)
