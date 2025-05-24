@@ -7,7 +7,7 @@
 [Решение и описание работы](https://github.com/KirushaK666/MyLabs/blob/main/2lab/2lab.md)
 
 3 лабораторная работа:
-[Решение и описание работы](MyLabs/3lab at main · KirushaK666/MyLabs)
+[Решение и описание работы](https://github.com/KirushaK666/MyLabs/tree/main/3lab)
 
 4 лабораторная работа:
 [Решение и описание работы](https://github.com/KirushaK666/MyLabs/tree/main/4lab)
